@@ -1,1 +1,15 @@
-/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.root {
+     -fx-background-image: url("taust.png");/*ajutine taust prooviks */
+}
+
+.leivanupp {
+  -fx-graphic: url("leib.png");
+  /*-fx-background-color: #ffffff;*/
+}
+
+.leivanupp:selected {
+  -fx-graphic: url('http://icons.iconarchive.com/icons/aha-soft/desktop-buffet/128/Piece-of-cake-icon.png');
+}
+.upgradenupp {
+	
+}
