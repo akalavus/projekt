@@ -1,15 +1,35 @@
 .root {
-     -fx-background-image: url("taust.png");/*ajutine taust prooviks */
+     -fx-background-image: url(" gameGUI/taust2.png");/*Taustapilt */
+     
 }
 
 .leivanupp {
-  -fx-graphic: url("leib.png");
-  /*-fx-background-color: #ffffff;*/
+  -fx-graphic: url("gameGUI/leib.png");
+  -fx-background-color: transparent;
+}
+.autoleib{
+	-fx-graphic: url("gameGUI/automaatneleib.png");
+	-fx-background-color: transparent;
+}
+.lisaleib{
+	-fx-graphic: url("gameGUI/plus1.png");
+	-fx-background-color: transparent;
+}
+.vanaema{
+	-fx-graphic: url("gameGUI/vanaema.png");
+	-fx-background-color: transparent;
+}
+.tehas{
+	-fx-graphic: url("gameGUI/tehas.png");
+	-fx-background-color: transparent;
+}
+.tekst{
+	 -fx-font: 60px Verdana;
+    -fx-fill: white;
+    -fx-stroke: black;
+    -fx-stroke-width: 2;
 }
 
-.leivanupp:selected {
-  -fx-graphic: url('http://icons.iconarchive.com/icons/aha-soft/desktop-buffet/128/Piece-of-cake-icon.png');
-}
 .upgradenupp {
 	
 }
