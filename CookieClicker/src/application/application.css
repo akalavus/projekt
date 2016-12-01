@@ -1,27 +1,64 @@
 .root {
-     -fx-background-image: url(" gameGUI/taust2.png");/*Taustapilt */
+     -fx-background-image: url("/images/taust2.png");/*Taustapilt */
      
 }
 
 .leivanupp {
-  -fx-graphic: url("gameGUI/leib.png");
+  -fx-graphic: url("/images/leib.png");
   -fx-background-color: transparent;
 }
+.leivanupp:pressed {
+  -fx-graphic: url("/images/leibpressed.png");
+  -fx-background-color: transparent;
+}
+
 .autoleib{
-	-fx-graphic: url("gameGUI/automaatneleib.png");
+	-fx-graphic: url("/images/automaatneleib.png");
+	-fx-background-color: transparent;
+}
+.autoleib:pressed{
+	-fx-graphic: url("/images/automaatneleibpressed.png");
 	-fx-background-color: transparent;
 }
 .lisaleib{
-	-fx-graphic: url("gameGUI/plus1.png");
+	-fx-graphic: url("/images/plus1button.png");
+	-fx-background-color: transparent;
+}
+.lisaleib:pressed{
+	-fx-graphic: url("/images/plus1buttonpressed.png");
 	-fx-background-color: transparent;
 }
 .vanaema{
-	-fx-graphic: url("gameGUI/vanaema.png");
+	-fx-graphic: url("/images/vanaema.png");
+	-fx-background-color: transparent;
+}
+.vanaema:pressed{
+	-fx-graphic: url("/images/vanaemapressed.png");
 	-fx-background-color: transparent;
 }
 .tehas{
-	-fx-graphic: url("gameGUI/tehas.png");
+	-fx-graphic: url("/images/tehas.png");
 	-fx-background-color: transparent;
+}
+.tehas:pressed{
+	-fx-graphic: url("/images/tehaspressed.png");
+	-fx-background-color: transparent;
+}
+.sulgenupp {
+  -fx-graphic: url("/images/sulge.png");
+  -fx-background-color: transparent;
+}
+.sulgenupp:pressed {
+  -fx-graphic: url("/images/sulge.png");
+  -fx-background-color: transparent;
+}
+.resetnupp {
+  -fx-graphic: url("/images/restart.png");
+  -fx-background-color: transparent;
+}
+.resetnupp:pressed {
+  -fx-graphic: url("/images/restart.png");
+  -fx-background-color: transparent;
 }
 .tekst{
 	 -fx-font: 60px Verdana;
@@ -29,7 +66,9 @@
     -fx-stroke: black;
     -fx-stroke-width: 2;
 }
-
-.upgradenupp {
-	
+.tekst2{
+	 -fx-font: 30px Verdana;
+    -fx-fill: white;
+    -fx-stroke: black;
+    -fx-stroke-width: 1;
 }
